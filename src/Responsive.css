@@ -1,0 +1,336 @@
+
+/* TABLET-RESPONSIVE */
+
+@media only screen and (max-width: 992px) and (min-width: 600px){
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Header styling */
+
+  .Header_section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .Header_logo {
+   width: 100px;
+  }
+  
+  .List_item {
+    margin: 0px 10px;
+  }
+  
+  /* HERO SECTION STYLING */
+
+  .hero_section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .hero_heading {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 5rem;
+    font-weight: 700;
+    padding: 10px 0px;
+  }
+  
+  .hero_paragraph {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    color: #919598;
+    padding: 10px 0px;
+  }
+  
+  .left_hero_section {
+    padding-bottom: 60px;
+  }
+
+  /* CARD_SECTION_STYLING */
+
+ .main_card_con {
+  width: 49%;
+ }
+
+ .card-img {
+  width: 290px;
+ }
+
+
+ /* HOT-ITEM-SECTION-STYLING */
+
+ .hotItem-card-section {
+  width: 100%;
+  padding: 0px 20px;
+  } 
+
+  /* FOOTER-SECTION-STYLING */
+
+  .footer-section {
+    width: 95%;
+    padding: 25px 20px;
+    align-items: center;
+  }
+  
+  /* Contact-page styling */
+
+  .main-form-con {
+    width: 100%;
+  background-image: url(./form-img.jpg);
+    background-blend-mode: multiply;
+    background-position: cover;
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+    margin-bottom: 30px;
+    
+  }
+
+  .Contact-form {
+  width: 65%;
+  margin-left: 130px;
+  text-align: center;
+  }
+
+
+  .Contact-form-input-filed {
+  background-color: #ca1e32;
+  }
+
+  /* About-section-styling */
+
+  .about-section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-about-section {
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+
+  .about-para {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    color: #919598;
+    padding: 0px 50px;
+    
+  }
+
+
+
+}
+
+/* MOBILE-RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Header styling */
+
+  .Header_section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+  }
+
+  .header_btn2 {
+   margin-left: 15px;
+  }
+  
+  .Header_logo {
+   width: 100px;
+  }
+  
+  .List_item {
+    margin: 0px 10px; 
+  }
+
+  .List_item {
+    display: inline-block;
+    margin: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 0px;
+  }
+
+  .Navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+  
+  /* HERO SECTION STYLING */
+
+  .hero_section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .hero_heading {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3rem;
+    font-weight: 700;
+    padding: 10px 0px;
+  }
+  
+  .hero_paragraph {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    color: #919598;
+    padding: 10px 0px;
+  }
+  
+  .left_hero_section {
+    padding-bottom: 60px;
+  }
+
+  .hero_img {
+    width: 350px;
+  }
+
+  .hero_btn1 {
+    margin-right: 10px;
+  }
+
+  /* CARD_SECTION_STYLING */
+
+ .main_card_con {
+  width: 100%;
+ }
+
+ .card-img {
+  width: 280px;
+ }
+
+ .card_section {
+  padding: 20px;
+  } 
+
+
+ /* HOT-ITEM-SECTION-STYLING */
+
+ .hotItem-card-section {
+  width: 100%;
+  padding: 0px 20px;
+  } 
+
+  /* FOOTER-SECTION-STYLING */
+
+  .footer-section {
+    width: 95%;
+    padding: 25px 20px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Contact-page styling */
+
+  .main-form-con {
+    width: 100%;
+    background-image: url(./form-img.jpg);
+    background-blend-mode: multiply;
+    background-position: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+  }
+
+  .Contact-form {
+  width: 100%;
+  margin-left: 0px;
+  text-align: center;
+  padding: 0px 20px;
+  }
+
+  .Contact-form-input-filed {
+  background-color: #ca1e32;
+  }
+
+  /* About-section-styling */
+
+  .about-section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-about-section {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .about-img {
+    width: 330px;
+    border-radius: 7px;
+  }
+
+  .about-heading {
+    font-size: 35px;
+  }
+
+  .about-para {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    color: #919598;
+    padding: 0px 0px;
+    
+  }
+
+}
